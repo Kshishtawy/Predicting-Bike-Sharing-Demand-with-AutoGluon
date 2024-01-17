@@ -1,40 +1,41 @@
 # Predict Bike Sharing Demand with AutoGluon
 
-## Introduction to AWS Machine Learning Final Project
-
 ## Overview
-In this project, students will apply the knowledge and methods they learned in the Introduction to Machine Learning course to compete in a Kaggle competition using the AutoGluon library.
 
-Students will create a Kaggle account if they do not already have one, download the Bike Sharing Demand dataset, and train a model using AutoGluon. They will then submit their initial results for a ranking.
+Welcome to the project on predicting bike sharing demand using the AWS open-source AutoML library, AutoGluon. This project focuses on leveraging AutoGluon's 'Tabular Prediction' to create accurate AutoML-based baseline models without the complexities of dealing with data cleaning, feature engineering, hyperparameter optimization, and model selection.
 
-After they complete the first workflow, they will iterate on the process by trying to improve their score. This will be accomplished by adding more features to the dataset and tuning some of the hyperparameters available with AutoGluon.
+## Problem Overview
 
-Finally they will submit all their work and write a report detailing which methods provided the best score improvement and why. A template of the report can be found [here](report-template.md).
+Bicycle sharing programs, also known as bike-sharing systems, provide a convenient and automated method for renting bicycles through a network of kiosk locations. This project addresses the challenge of predicting bike rental demand in the Washington D.C. Capital Bikeshare program using the Kaggle Bike Sharing demand dataset.
 
-To meet specifications, the project will require at least these files:
-* Jupyter notebook with code run to completion
-* HTML export of the jupyter notebbook
-* Markdown or PDF file of the report
+## Dataset
+![[Bike-Sharing-Demand-Image]([img/Bike-Sharing-Demand-img.jpg](https://storage.googleapis.com/kaggle-media/competitions/kaggle/3948/media/bikes.png))](https://storage.googleapis.com/kaggle-media/competitions/kaggle/3948/media/bikes.png)<br>
+[Kaggle Bike Sharing Demand Competition Dataset](https://www.kaggle.com/competitions/bike-sharing-demand/data)
 
-Images or additional files needed to make your notebook or report complete can be also added.
+## Approach
+
+1. Downloaded and analyzed the dataset, focusing on identifying features and characteristics.
+2. Trained a model using AutoGluon's Tabular Prediction with default settings for initial Kaggle ranking.
+3. Conducted exploratory data analysis to understand feature impact and incorporated feature engineering for model enhancement.
+4. Iteratively refined the model, utilizing feature-engineered datasets and fine-tuning hyperparameters to improve performance.
 
 ## Getting Started
+
+### Resources
 * Clone this template repository `git clone git@github.com:udacity/nd009t-c1-intro-to-ml-project-starter.git` into AWS Sagemaker Studio (or local development).
 
 <img src="img/sagemaker-studio-git1.png" alt="sagemaker-studio-git1.png" width="500"/>
 <img src="img/sagemaker-studio-git2.png" alt="sagemaker-studio-git2.png" width="500"/>
 
-* Proceed with the project within the [jupyter notebook](project-template.ipynb).
-* Visit the [Kaggle Bike Sharing Demand Competition](https://www.kaggle.com/c/bike-sharing-demand) page. There you will see the overall details about the competition including overview, data, code, discussion, leaderboard, and rules. You will primarily be focused on the data and ranking sections.
+- Visit the [Kaggle Bike Sharing Demand Competition](https://www.kaggle.com/c/bike-sharing-demand) page for competition details.
 
 ### Dependencies
 
-```
-Python 3.7
-MXNet 1.8
-Pandas >= 1.2.4
-AutoGluon 0.2.0 
-```
+- Python 3.7
+- pydantic 1.10.3
+- MXNet 1.8
+- Pandas >= 1.2.4
+- AutoGluon 0.2.0 
 
 ### Installation
 For this project, it is highly recommended to use Sagemaker Studio from the course provided AWS workspace. This will simplify much of the installation needed to get started.
@@ -47,7 +48,13 @@ pip install jupyterlab
 ```
 * There are also docker containers containing jupyter lab from [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html).
 
-## Project Instructions
+## Project Specific Files
+
+1. **`project_notebook-bike_sharing_demand.ipynb`**: Jupyter notebook with code and explanations 
+2. **`project_notebook-bike_sharing_demand.html`**: HTML export of the Jupyter notebook
+3. **`project_report.md`**: Markdown file of the report, providing insights into significant model improvement iterations
+
+## Udacity's Rubric for this project
 
 1. Create an account with Kaggle.
 2. Download the Kaggle dataset using the kaggle python library.
@@ -57,5 +64,7 @@ pip install jupyterlab
 6. Tune at least 3 different hyperparameters from AutoGluon and resubmit predictions to rank higher on Kaggle.
 7. Write up a report on how improvements (or not) were made by either creating additional features or tuning hyperparameters, and why you think one or the other is the best approach to invest more time in.
 
-## License
-[License](LICENSE.txt)
+## This was the first project of the "Udacity Machine Learning Fundamentals Nandegree" offered by AWS as part of the "AWS AI & ML scholarship"
+Confirmation  link: [link](confirm.udacity.com/e/ba2b0610-ee8f-11ed-8e43-fbdc25fcc49f)
+
+
