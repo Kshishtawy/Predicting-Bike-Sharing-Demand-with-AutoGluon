@@ -54,7 +54,7 @@ pip install jupyterlab
 2. **`project_notebook-bike_sharing_demand.html`**: HTML export of the Jupyter notebook
 3. **`project_report.md`**: Markdown file of the report, providing insights into significant model improvement iterations
 
-## Udacity's Rubric for this project
+## Udacity's instructions for this project
 
 1. Create an account with Kaggle.
 2. Download the Kaggle dataset using the kaggle python library.
