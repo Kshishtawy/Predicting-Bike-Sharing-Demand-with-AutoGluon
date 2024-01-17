@@ -65,6 +65,6 @@ pip install jupyterlab
 7. Write up a report on how improvements (or not) were made by either creating additional features or tuning hyperparameters, and why you think one or the other is the best approach to invest more time in.
 
 ## This was the first project of the "Udacity Machine Learning Fundamentals Nandegree" offered by AWS as part of the "AWS AI & ML scholarship"
-Confirmation  link: [link](confirm.udacity.com/e/ba2b0610-ee8f-11ed-8e43-fbdc25fcc49f)
+Confirmation  link: [link](https://graduation.udacity.com/confirm/e/ba2b0610-ee8f-11ed-8e43-fbdc25fcc49f)
 
 
