@@ -66,5 +66,7 @@ pip install jupyterlab
 
 ## This was the first project of the "Udacity Machine Learning Fundamentals Nandegree" offered by AWS as part of the "AWS AI & ML scholarship"
 Confirmation  link: [link](https://graduation.udacity.com/confirm/e/ba2b0610-ee8f-11ed-8e43-fbdc25fcc49f)
+![Certificate](https://github.com/Kshishtawy/Developing-a-Handwritten-Digits-Classifier-with-PyTorch/blob/main/Certificate/Udacity%20-%20Machine%20Learning%20Fundamentals.png?raw=true)
+
 
 
