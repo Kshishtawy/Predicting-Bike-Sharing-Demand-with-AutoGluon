@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project goal is to predict bike sharing demand using the AWS open-source AutoML library, AutoGluon. It focuses on leveraging AutoGluon's 'Tabular Prediction' to create accurate AutoML-based baseline models to predict the bike sharing demand using the Kaggle Bike Sharing demand dataset.
+This project's goal is to predict bike sharing demand using the AWS open-source AutoML library, AutoGluon. It focuses on leveraging AutoGluon's 'Tabular Prediction' to create accurate AutoML-based baseline models to predict the bike sharing demand using the Kaggle Bike Sharing demand dataset.
 
 ## Problem Overview
 
